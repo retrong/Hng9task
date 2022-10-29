@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import LinkTree from './components/LinkTree';
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+        <div>
+            <LinkTree />
+        </div>
+    </div>
   )
 }
 
