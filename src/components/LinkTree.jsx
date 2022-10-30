@@ -12,19 +12,24 @@ function LinkTree() {
 
             <div className='header'>
                 <div>
-                    <img src={profileImg} alt="profile" />
-                    <h1>Eguoba E. Barth</h1>       
+                    <img src={profileImg} alt="profile" id='profile__img'/>
+                    <h1 id='twitter'>FvtvreAce</h1>
+
+                    {/* slack username */}
+
+                    {/* <h2 id='slack'>@Xavier</h2>*/}
                 </div>
             </div>
             
             <div className='content'>
 
-                <a href="#" className='btn'>Twitter Link</a>
-                <a href="#" className='btn'>Zuri Team</a>
-                <a href="#" className='btn'>Zuti Books</a>
-                <a href="#" className='btn'>Python Books</a>
-                <a href="#" className='btn'>Background Check for Coders</a>
-                <a href="#" className='btn'>Design Books</a>
+                <a href="https://twitter.com/FvtvreAce" className='btn'>Twitter Link</a>
+
+                <a href="https://training.zuri.team/" id='btn__zuri' className='btn'>Zuri Team</a>
+                <a href="http://books.zuri.team/" id='books' className='btn'>Zuti Books</a>
+                <a href="https://books.zuri.team/python-for-beginners?ref_id=Xavier_fury" id='book__python' className='btn'>Python Books</a>
+                <a href="https://background.zuri.team/" id='pitch' className='btn'>Background Check for Coders</a>
+                <a href="https://books.zuri.team/design-rules" id='book__design' className='btn'>Design Books</a>
             </div>
 
         </div>
