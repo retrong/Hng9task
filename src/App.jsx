@@ -1,14 +1,16 @@
-import React from 'react';
-import LinkTree from './components/LinkTree';
+// import React from 'react';
+// import LinkTree from './components/LinkTree';
+// import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div>
-        <div>
-            <LinkTree />
-        </div>
-    </div>
-  )
-}
+// function App() {
+//   return (
+//     <div>
+//         <div>
+//             <LinkTree />
+//             <Footer />
+//         </div>
+//     </div>
+//   )
+// }
 
-export default App
+// export default App

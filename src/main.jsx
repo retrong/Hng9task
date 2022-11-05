@@ -1,10 +1,31 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+// import App from './App'
+import LinkTree from "./components/LinkTree";
+import Contact from "./components/Contact";
+import { 
+    createBrowserRouter,
+    RouterProvider,
+    Route, Link
+} from "react-router-dom";
+import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <LinkTree />,
+    },
+    {
+        path: "/Contact",
+        element: <Contact />,
+    },
+
+
+    
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
-)
+);

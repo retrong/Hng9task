@@ -1,5 +1,6 @@
 import React from 'react';
-import { arrow, profileImg, slack, github, zuri, i4g, dot } from '../assets';
+import { arrow, profileImg, slack, github, dot } from '../assets';
+import Footer from "./Footer";
 
 function LinkTree() {
   return (
@@ -30,6 +31,7 @@ function LinkTree() {
                 <a href="https://books.zuri.team/python-for-beginners?ref_id=Xavier_fury" id='book__python' className='btn'>Python Books</a>
                 <a href="https://background.zuri.team/" id='pitch' className='btn'>Background Check for Coders</a>
                 <a href="https://books.zuri.team/design-rules" id='book__design' className='btn'>Design Books</a>
+                <a href="./Contact" id='Contact' className='btn'>Contact Me</a>
             </div>
 
         </div>
@@ -41,15 +43,7 @@ function LinkTree() {
             </div>
         </div>
 
-
-        <footer>
-            <hr />
-            <div className='footer'>
-                <div><img src={zuri} alt="zuri" /></div>
-                <div><h3>HNG Internship 9 Frontend Task</h3></div>
-                <div><img src={i4g} alt="i4g" /></div>
-            </div>
-        </footer>
+        <Footer />
     </section>
   )
 }
